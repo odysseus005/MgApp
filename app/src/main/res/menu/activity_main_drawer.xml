@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Account">
+        <menu>
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_nav_appointment"
+            android:title="Appointment" />
+
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/ic_nav_garage"
+            android:title="Garage" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_nav_login"
+            android:title="Login" />
+
+        </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_dealer"
+            android:icon="@drawable/ic_nav_dealer"
+            android:title="Dealer Locator" />
+        <item
+            android:id="@+id/nav_promo"
+            android:visible="false"
+            android:icon="@drawable/ic_nav_promo"
+            android:title="Promo" />
+        <item
+            android:id="@+id/nav_showroom"
+            android:visible="false"
+            android:icon="@drawable/ic_nav_show"
+            android:title="Showroom" />
+        <item
+            android:id="@+id/nav_parts"
+            android:icon="@drawable/ic_nav_parts"
+            android:title="Parts Inquiry" />
+        <item
+            android:id="@+id/nav_testdrive"
+            android:icon="@drawable/ic_nav_test"
+            android:title="Testdrive" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_feedback"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_care"
+            android:icon="@drawable/ic_nav_care"
+            android:visible="false"
+            android:title="We Care Program" />
+        <item
+            android:id="@+id/nav_roadside"
+            android:visible="false"
+            android:icon="@drawable/ic_nav_road"
+            android:title="Roadside" />
+
+        <item
+            android:id="@+id/nav_pms"
+            android:visible="false"
+            android:icon="@drawable/ic_nav_maintenance"
+            android:title="Preventive Maintenance" />
+        <item
+            android:id="@+id/nav_warranty"
+            android:icon="@drawable/ic_nav_warranty"
+            android:visible="false"
+            android:title="Warranty" />
+
+
+
+
+
+    <item android:title="">
+        <menu>
+    <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Logout" />
+
+
+</menu>
+    </item>
+    </group>
+</menu>
