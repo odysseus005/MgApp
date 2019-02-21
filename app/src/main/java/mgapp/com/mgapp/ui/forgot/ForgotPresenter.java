@@ -4,9 +4,9 @@ import android.util.Log;
 
 import com.hannesdorfmann.mosby.mvp.MvpNullObjectBasePresenter;
 
-import mychevroletconnect.com.chevroletapp.app.App;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.model.response.ResultResponse;
+import mgapp.com.mgapp.app.App;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.model.response.ResultResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

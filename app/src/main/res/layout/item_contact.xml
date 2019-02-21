@@ -6,11 +6,11 @@
         
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
 
         <variable
             name="dealer"
-            type="mychevroletconnect.com.chevroletapp.model.data.DealerContacts" />
+            type="mgapp.com.mgapp.model.data.DealerContacts" />
 
 
     </data>

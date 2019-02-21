@@ -6,11 +6,11 @@
     <data>
        <variable
             name="garage"
-            type="mychevroletconnect.com.chevroletapp.model.data.Garage" />
+            type="mgapp.com.mgapp.model.data.Garage" />
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentView" />
+            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
     </data>
@@ -40,7 +40,7 @@
                 android:text="@{garage.garagePlate}"
                 android:gravity="center"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="@color/colorAccentDark" />
+                android:textColor="@color/colorAccent" />
 
 
             <TextView
@@ -51,7 +51,7 @@
                 android:maxLines="2"
                 android:ellipsize="end"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="@color/colorAccentDark" />
+                android:textColor="@color/colorAccent" />
 
         </LinearLayout>
 

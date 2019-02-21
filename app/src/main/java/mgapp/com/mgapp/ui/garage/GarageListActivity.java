@@ -47,12 +47,12 @@ import java.util.Locale;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityGarageBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogAddGarageBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogEditGarageBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
-import mychevroletconnect.com.chevroletapp.model.data.User;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityGarageBinding;
+import mgapp.com.mgapp.databinding.DialogAddGarageBinding;
+import mgapp.com.mgapp.databinding.DialogEditGarageBinding;
+import mgapp.com.mgapp.model.data.Garage;
+import mgapp.com.mgapp.model.data.User;
 import pl.aprilapps.easyphotopicker.EasyImage;
 
 

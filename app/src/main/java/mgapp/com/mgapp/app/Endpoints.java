@@ -6,10 +6,10 @@ public class Endpoints {
 
     public static final String _ID = "{id}/";
 
-    public static final String BASE_URL = "https://mychevroletconnect.com";
-    public static final String API_URL = BASE_URL+ "/api/v1/";
-    public static final String IMAGE_UPLOAD = "https://api.mychevroletconnect.webstarterz.com";
-    public static final String URL_IMAGE = IMAGE_UPLOAD+ "/images/";
+   public static final String BASE_URL = "https://mymgconnect.com";
+   public static final String API_URL = BASE_URL+ "/api/v1/";
+   public static final String IMAGE_UPLOAD = "https://api.mymgconnect.webstarterz.com";
+   public static final String URL_IMAGE = IMAGE_UPLOAD+ "/images/";
 
 
 // public static final String BASE_URL = "http://api.mychevroletconnect.webstarterz.com";

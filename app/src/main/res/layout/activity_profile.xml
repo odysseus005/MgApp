@@ -7,10 +7,10 @@
 
         <variable
             name="profile"
-            type="mychevroletconnect.com.chevroletapp.model.data.User" />
+            type="mgapp.com.mgapp.model.data.User" />
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.profile.ProfileView" />
+            type="mgapp.com.mgapp.ui.profile.ProfileView" />
 
     </data>
 

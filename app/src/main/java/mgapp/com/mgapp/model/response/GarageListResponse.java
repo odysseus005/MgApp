@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
+import mgapp.com.mgapp.model.data.Garage;
 
 
 /**

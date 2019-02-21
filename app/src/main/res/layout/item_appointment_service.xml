@@ -5,11 +5,11 @@
     <data>
        <variable
             name="service"
-            type="mychevroletconnect.com.chevroletapp.model.data.Service" />
+            type="mgapp.com.mgapp.model.data.Service" />
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentView" />
+            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
     </data>

@@ -6,11 +6,11 @@
 
         <variable
             name="appointment"
-            type="mychevroletconnect.com.chevroletapp.model.data.Appointment" />
+            type="mgapp.com.mgapp.model.data.Appointment" />
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentView" />
+            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
     </data>

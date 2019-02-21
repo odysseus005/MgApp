@@ -20,11 +20,11 @@ import java.util.List;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityTestdriveBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Car;
-import mychevroletconnect.com.chevroletapp.model.data.Dealer;
-import mychevroletconnect.com.chevroletapp.model.data.User;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityTestdriveBinding;
+import mgapp.com.mgapp.model.data.Car;
+import mgapp.com.mgapp.model.data.Dealer;
+import mgapp.com.mgapp.model.data.User;
 
 
 public class TestActivity extends MvpViewStateActivity<TestView, TestPresenter> implements TestView, TextWatcher {

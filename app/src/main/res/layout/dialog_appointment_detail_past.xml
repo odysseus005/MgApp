@@ -4,15 +4,15 @@
    >
 
     <data>
-        <import type="mychevroletconnect.com.chevroletapp.util.FunctionUtils"/>
+        <import type="mgapp.com.mgapp.util.FunctionUtils"/>
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.pastAppointment.PastAppointmentView" />
+            type="mgapp.com.mgapp.ui.main.pastAppointment.PastAppointmentView" />
 
         <variable
             name="appointment"
-            type="mychevroletconnect.com.chevroletapp.model.data.PastAppointment" />
+            type="mgapp.com.mgapp.model.data.PastAppointment" />
 
 
     </data>
@@ -134,7 +134,7 @@
                             android:layout_height="25dp"
                             android:scaleType="centerCrop"
                             android:tint="@color/gray"
-                            android:src="@drawable/ic_nav_dealer"
+                            android:src="@drawable/ic_dealer_blgg"
                             />
 
                         <TextView
@@ -223,8 +223,8 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:scaleType="centerCrop"
                             android:tint="@color/gray"
                             android:src="@drawable/ic_appointment_info"

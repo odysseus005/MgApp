@@ -1,19 +1,19 @@
 package mgapp.com.mgapp.app;
 
 
-import mychevroletconnect.com.chevroletapp.model.response.AdvisorListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.AppointmentListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.CarListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.DealerContactListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.DealerListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.GarageListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.LoginResponse;
-import mychevroletconnect.com.chevroletapp.model.response.PastAppointmentListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.PmsListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.ResultResponse;
-import mychevroletconnect.com.chevroletapp.model.response.ScheduleListResponse;
-import mychevroletconnect.com.chevroletapp.model.response.ScheduleListResponse2;
-import mychevroletconnect.com.chevroletapp.model.response.ServiceListResponse;
+import mgapp.com.mgapp.model.response.AdvisorListResponse;
+import mgapp.com.mgapp.model.response.AppointmentListResponse;
+import mgapp.com.mgapp.model.response.CarListResponse;
+import mgapp.com.mgapp.model.response.DealerContactListResponse;
+import mgapp.com.mgapp.model.response.DealerListResponse;
+import mgapp.com.mgapp.model.response.GarageListResponse;
+import mgapp.com.mgapp.model.response.LoginResponse;
+import mgapp.com.mgapp.model.response.PastAppointmentListResponse;
+import mgapp.com.mgapp.model.response.PmsListResponse;
+import mgapp.com.mgapp.model.response.ResultResponse;
+import mgapp.com.mgapp.model.response.ScheduleListResponse;
+import mgapp.com.mgapp.model.response.ScheduleListResponse2;
+import mgapp.com.mgapp.model.response.ServiceListResponse;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 import retrofit2.Call;

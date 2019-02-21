@@ -19,19 +19,18 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import io.realm.Realm;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityMainBinding;
-import mychevroletconnect.com.chevroletapp.model.data.User;
-import mychevroletconnect.com.chevroletapp.ui.garage.GarageListActivity;
-import mychevroletconnect.com.chevroletapp.ui.inquiries.contactus.ContactActivity;
-import mychevroletconnect.com.chevroletapp.ui.inquiries.parts.PartsActivity;
-import mychevroletconnect.com.chevroletapp.ui.inquiries.testdrive.TestActivity;
-import mychevroletconnect.com.chevroletapp.ui.login.LoginActivity;
-import mychevroletconnect.com.chevroletapp.ui.map.MapActivity;
-import mychevroletconnect.com.chevroletapp.ui.profile.ProfileActivity;
-import mychevroletconnect.com.chevroletapp.util.CircleTransform;
-
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.databinding.ActivityMainBinding;
+import mgapp.com.mgapp.model.data.User;
+import mgapp.com.mgapp.ui.garage.GarageListActivity;
+import mgapp.com.mgapp.ui.inquiries.contactus.ContactActivity;
+import mgapp.com.mgapp.ui.inquiries.parts.PartsActivity;
+import mgapp.com.mgapp.ui.inquiries.testdrive.TestActivity;
+import mgapp.com.mgapp.ui.login.LoginActivity;
+import mgapp.com.mgapp.ui.map.MapActivity;
+import mgapp.com.mgapp.ui.profile.ProfileActivity;
+import mgapp.com.mgapp.util.CircleTransform;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

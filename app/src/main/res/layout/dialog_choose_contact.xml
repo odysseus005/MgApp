@@ -9,7 +9,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
 
 
 

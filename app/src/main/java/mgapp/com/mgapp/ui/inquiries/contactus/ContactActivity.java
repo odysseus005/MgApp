@@ -18,9 +18,9 @@ import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import java.util.ArrayList;
 
 import io.realm.Realm;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityContactusBinding;
-import mychevroletconnect.com.chevroletapp.model.data.User;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityContactusBinding;
+import mgapp.com.mgapp.model.data.User;
 
 
 public class ContactActivity extends MvpViewStateActivity<ContactView, ContactPresenter> implements ContactView, TextWatcher {

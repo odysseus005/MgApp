@@ -8,15 +8,12 @@
 
     <variable
         name="view"
-        type="mychevroletconnect.com.chevroletapp.ui.garage.GarageListView" />
+        type="mgapp.com.mgapp.ui.garage.GarageListView" />
 
     <variable
         name="garage"
-        type="mychevroletconnect.com.chevroletapp.model.data.Garage" />
+        type="mgapp.com.mgapp.model.data.Garage" />
 
-    <variable
-        name="contentVisible"
-        type="boolean" />
 
 </data>
     <android.support.design.widget.CoordinatorLayout
@@ -84,7 +81,7 @@
                     android:text="@{garage.garagePlate}"
                     android:gravity="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
-                    android:textColor="@color/colorAccentDark" />
+                    android:textColor="@color/colorAccent" />
 
 
 

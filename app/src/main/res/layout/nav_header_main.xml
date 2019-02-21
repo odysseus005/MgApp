@@ -7,7 +7,7 @@
 
         <variable
             name="user"
-            type="mychevroletconnect.com.chevroletapp.model.data.User" />
+            type="mgapp.com.mgapp.model.data.User" />
     </data>
 
     <FrameLayout
@@ -53,6 +53,7 @@
                 android:paddingTop="@dimen/nav_header_vertical_spacing"
                 android:text="@{user.fullName}"
                 android:autoSizeTextType="uniform"
+                android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
@@ -63,6 +64,7 @@
                 android:gravity="center"
                 android:autoSizeTextType="uniform"
                 android:text="@{user.email}"
+                android:textColor="@color/black"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>

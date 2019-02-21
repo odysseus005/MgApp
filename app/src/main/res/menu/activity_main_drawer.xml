@@ -35,12 +35,10 @@
         <item
             android:id="@+id/nav_promo"
             android:visible="false"
-            android:icon="@drawable/ic_nav_promo"
             android:title="Promo" />
         <item
             android:id="@+id/nav_showroom"
             android:visible="false"
-            android:icon="@drawable/ic_nav_show"
             android:title="Showroom" />
         <item
             android:id="@+id/nav_parts"
@@ -58,23 +56,19 @@
 
         <item
             android:id="@+id/nav_care"
-            android:icon="@drawable/ic_nav_care"
             android:visible="false"
             android:title="We Care Program" />
         <item
             android:id="@+id/nav_roadside"
             android:visible="false"
-            android:icon="@drawable/ic_nav_road"
             android:title="Roadside" />
 
         <item
             android:id="@+id/nav_pms"
             android:visible="false"
-            android:icon="@drawable/ic_nav_maintenance"
             android:title="Preventive Maintenance" />
         <item
             android:id="@+id/nav_warranty"
-            android:icon="@drawable/ic_nav_warranty"
             android:visible="false"
             android:title="Warranty" />
 

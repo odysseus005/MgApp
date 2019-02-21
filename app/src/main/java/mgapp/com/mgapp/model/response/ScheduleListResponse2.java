@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.model.data.Holiday2;
+import mgapp.com.mgapp.model.data.Holiday2;
 
 
 /**

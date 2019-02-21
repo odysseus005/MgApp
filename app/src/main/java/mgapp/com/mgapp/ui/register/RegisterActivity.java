@@ -26,9 +26,9 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityRegisterBinding;
-import mychevroletconnect.com.chevroletapp.ui.login.LoginActivity;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityRegisterBinding;
+import mgapp.com.mgapp.ui.login.LoginActivity;
 
 
 public class RegisterActivity extends MvpViewStateActivity<RegisterView, RegisterPresenter> implements RegisterView, TextWatcher {

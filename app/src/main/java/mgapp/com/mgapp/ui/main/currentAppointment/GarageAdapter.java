@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentGarageBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentGarageBinding;
+import mgapp.com.mgapp.model.data.Garage;
 
 
 public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.ViewHolder> {

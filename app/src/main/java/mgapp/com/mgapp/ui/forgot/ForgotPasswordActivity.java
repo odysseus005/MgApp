@@ -11,8 +11,9 @@ import android.widget.Toast;
 
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityForgotPassBinding;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityForgotPassBinding;
+
 
 public class ForgotPasswordActivity extends MvpActivity<ForgotView, ForgotPresenter> implements ForgotView {
 

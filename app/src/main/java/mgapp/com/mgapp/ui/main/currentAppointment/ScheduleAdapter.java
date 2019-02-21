@@ -12,10 +12,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentTimeBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Schedule;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentTimeBinding;
+import mgapp.com.mgapp.model.data.Schedule;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.ViewHolder> {

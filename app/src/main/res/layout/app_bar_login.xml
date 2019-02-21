@@ -6,7 +6,7 @@
     <data>
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.login.LoginView" />
+            type="mgapp.com.mgapp.ui.login.LoginView" />
     </data>
 
     <LinearLayout
@@ -41,6 +41,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_marginTop="200dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/bg_rounded_login"

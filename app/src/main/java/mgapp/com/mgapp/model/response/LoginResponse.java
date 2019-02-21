@@ -3,7 +3,7 @@ package mgapp.com.mgapp.model.response;
 
 import com.google.gson.annotations.SerializedName;
 
-import mychevroletconnect.com.chevroletapp.model.data.User;
+import mgapp.com.mgapp.model.data.User;
 
 
 public class LoginResponse {

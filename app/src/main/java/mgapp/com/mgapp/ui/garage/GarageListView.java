@@ -2,7 +2,7 @@ package mgapp.com.mgapp.ui.garage;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
+import mgapp.com.mgapp.model.data.Garage;
 
 
 public interface GarageListView extends MvpView {

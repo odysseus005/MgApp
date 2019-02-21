@@ -12,10 +12,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentTimeHolidayBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Holiday;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentTimeHolidayBinding;
+import mgapp.com.mgapp.model.data.Holiday;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class HolidayAdapter extends RecyclerView.Adapter<HolidayAdapter.ViewHolder> {

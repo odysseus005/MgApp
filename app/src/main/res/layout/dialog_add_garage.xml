@@ -8,11 +8,11 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.garage.GarageListView" />
+            type="mgapp.com.mgapp.ui.garage.GarageListView" />
 
         <variable
             name="garage"
-            type="mychevroletconnect.com.chevroletapp.model.data.Garage" />
+            type="mgapp.com.mgapp.model.data.Garage" />
 
         <variable
             name="contentVisible"
@@ -42,7 +42,7 @@
                 android:layout_height="40dp"
                 android:scaleType="centerCrop"
                 android:tint="@color/white"
-                android:src="@drawable/ic_garage"
+                android:src="@drawable/ic_nav_garage"
                 />
 
             <TextView

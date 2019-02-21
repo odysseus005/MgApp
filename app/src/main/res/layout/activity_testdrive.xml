@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.inquiries.testdrive.TestView" />
+            type="mgapp.com.mgapp.ui.inquiries.testdrive.TestView" />
 
     </data>
 
@@ -48,8 +48,8 @@
 
 
             <ImageView
-                android:layout_width="65dp"
-                android:layout_height="65dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:tint="@color/colorPrimary"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_nav_test"
@@ -83,10 +83,10 @@
 
 
                     <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_nav_dealer"
+                        android:src="@drawable/ic_dealer_blgg"
                         android:tint="@color/colorPrimary" />
 
                     <TextView
@@ -168,7 +168,8 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/ic_register"
+                        android:src="@drawable/ic_register"
+                        android:tint="@color/colorPrimary"
                         android:scaleType="centerCrop" />
 
                     <TextView

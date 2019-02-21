@@ -7,15 +7,15 @@
 
         <variable
             name="activity"
-            type="mychevroletconnect.com.chevroletapp.ui.profile.edit.EditProfileActivity" />
+            type="mgapp.com.mgapp.ui.profile.edit.EditProfileActivity" />
 
         <variable
             name="user"
-            type="mychevroletconnect.com.chevroletapp.model.data.User" />
+            type="mgapp.com.mgapp.model.data.User" />
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.profile.edit.EditProfileView" />
+            type="mgapp.com.mgapp.ui.profile.edit.EditProfileView" />
     </data>
 
     <LinearLayout

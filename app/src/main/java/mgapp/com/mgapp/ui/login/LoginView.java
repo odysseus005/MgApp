@@ -3,7 +3,7 @@ package mgapp.com.mgapp.ui.login;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 
-import mychevroletconnect.com.chevroletapp.model.data.User;
+import mgapp.com.mgapp.model.data.User;
 
 
 public interface LoginView extends MvpView {

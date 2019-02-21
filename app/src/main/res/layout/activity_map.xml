@@ -7,7 +7,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -124,7 +124,7 @@
                                     android:layout_width="35dp"
                                     android:layout_height="35dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ic_nav_dealer"
+                                    android:src="@drawable/ic_dealer_blgg"
                                     android:tint="@color/gray" />
 
                                 <TextView
@@ -349,7 +349,7 @@
             android:layout_margin="10dp"
             fab:menu_colorNormal="@color/colorPrimary"
             fab:menu_colorPressed="@color/colorPrimaryDark"
-            fab:menu_icon="@drawable/ic_nav_dealer"
+            fab:menu_icon="@drawable/ic_dealer_blgg"
             fab:menu_labels_position="right"
             fab:menu_fab_size="normal">
 
@@ -420,7 +420,7 @@
             android:layout_gravity="bottom|end"
             android:layout_margin="80dp"
             android:visibility="gone"
-            android:src="@drawable/ic_nav_dealer"
+            android:src="@drawable/ic_dealer_blgg"
             android:tint="@color/white"
             app:backgroundTint="@color/colorPrimary"
             app:fabSize="normal" />

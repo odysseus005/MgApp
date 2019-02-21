@@ -7,7 +7,7 @@
 
         <variable
             name="user"
-            type="mychevroletconnect.com.chevroletapp.model.data.User" />
+            type="mgapp.com.mgapp.model.data.User" />
     </data>
 
     <FrameLayout
@@ -57,6 +57,7 @@
                 android:gravity="center"
                 android:paddingTop="@dimen/nav_header_vertical_spacing"
                 android:text="Hi, Welcome!"
+                android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
@@ -66,6 +67,7 @@
                 android:layout_marginTop="8dp"
                 android:gravity="center"
                 android:text="Guest"
+                android:textColor="@color/black"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>

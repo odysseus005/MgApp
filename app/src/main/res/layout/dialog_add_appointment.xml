@@ -8,7 +8,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentView" />
+            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
 
@@ -79,7 +79,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_garage"
+                        android:src="@drawable/ic_nav_garage"
                         android:tint="@color/gray" />
 
                     <TextView
@@ -112,7 +112,7 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_nav_dealer"
+                        android:src="@drawable/ic_dealer_blgg"
                         android:tint="@color/gray" />
 
                     <TextView

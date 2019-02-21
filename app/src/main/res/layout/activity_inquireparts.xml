@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.inquiries.parts.PartsView" />
+            type="mgapp.com.mgapp.ui.inquiries.parts.PartsView" />
 
     </data>
 
@@ -49,8 +49,8 @@
 
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:tint="@color/colorPrimary"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_nav_parts"
@@ -87,7 +87,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_nav_dealer"
+                        android:src="@drawable/ic_dealer_blgg"
                         android:tint="@color/colorPrimary" />
 
                     <TextView
@@ -215,7 +215,8 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/ic_register"
+                        android:tint="@color/colorPrimary"
+                        android:src="@drawable/ic_register"
                         android:scaleType="centerCrop" />
 
                     <TextView

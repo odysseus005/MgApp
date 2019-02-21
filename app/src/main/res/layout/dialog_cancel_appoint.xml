@@ -8,7 +8,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentView" />
+            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
 

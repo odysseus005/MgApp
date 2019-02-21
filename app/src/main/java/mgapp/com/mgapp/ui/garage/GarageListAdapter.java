@@ -12,11 +12,11 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.databinding.ItemGarageListBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.databinding.ItemGarageListBinding;
+import mgapp.com.mgapp.model.data.Garage;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class GarageListAdapter extends RecyclerView.Adapter<GarageListAdapter.ViewHolder> {
@@ -83,7 +83,7 @@ public class GarageListAdapter extends RecyclerView.Adapter<GarageListAdapter.Vi
             }
         });
 
-        holder.itemEventBinding.garageDop.setText("Date of Purchased: "+FunctionUtils.toReadable(garage.get(position).getGaragePurchase()));
+        holder.itemEventBinding.garageDop.setText("Date of Purchased: "+ FunctionUtils.toReadable(garage.get(position).getGaragePurchase()));
 
 
         Glide.with(holder.itemView.getContext())

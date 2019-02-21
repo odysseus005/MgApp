@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemNearestBinding;
-import mychevroletconnect.com.chevroletapp.model.data.NearDealer;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemNearestBinding;
+import mgapp.com.mgapp.model.data.NearDealer;
 
 
 public class MapListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -39,7 +39,7 @@ public class MapListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-         ItemNearestBinding  binding = DataBindingUtil.inflate(
+         ItemNearestBinding binding = DataBindingUtil.inflate(
                 LayoutInflater.from(parent.getContext()), R.layout.item_nearest, parent, false);
 
 

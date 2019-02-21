@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemContactBinding;
-import mychevroletconnect.com.chevroletapp.model.data.DealerContacts;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemContactBinding;
+import mgapp.com.mgapp.model.data.DealerContacts;
 
 
 public class ContactListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

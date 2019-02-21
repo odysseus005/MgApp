@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class PastAppointment extends RealmObject {

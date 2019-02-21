@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentPastBinding;
-import mychevroletconnect.com.chevroletapp.model.data.PastAppointment;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentPastBinding;
+import mgapp.com.mgapp.model.data.PastAppointment;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class PastAppointmentAdapter extends RecyclerView.Adapter<PastAppointmentAdapter.ViewHolder> {

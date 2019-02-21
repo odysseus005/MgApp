@@ -5,7 +5,7 @@
     <data>
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.login.LoginView" />
+            type="mgapp.com.mgapp.ui.login.LoginView" />
     </data>
 
     <LinearLayout
@@ -44,7 +44,6 @@
             android:layout_gravity="center"
             android:layout_above="@+id/textUsername"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/ic_logo"
             />
 
         <!-- Login progress -->

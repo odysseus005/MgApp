@@ -62,19 +62,19 @@ import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmResults;
 import io.realm.Sort;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityMapBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogContactBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogDealerDetailBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogShowNearestBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Dealer;
-import mychevroletconnect.com.chevroletapp.model.data.DealerContacts;
-import mychevroletconnect.com.chevroletapp.model.data.NearDealer;
-import mychevroletconnect.com.chevroletapp.model.data.User;
-import mychevroletconnect.com.chevroletapp.util.BitmapUtils;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
-import mychevroletconnect.com.chevroletapp.util.FusedLocation;
-import mychevroletconnect.com.chevroletapp.util.SimpleLocation;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ActivityMapBinding;
+import mgapp.com.mgapp.databinding.DialogContactBinding;
+import mgapp.com.mgapp.databinding.DialogDealerDetailBinding;
+import mgapp.com.mgapp.databinding.DialogShowNearestBinding;
+import mgapp.com.mgapp.model.data.Dealer;
+import mgapp.com.mgapp.model.data.DealerContacts;
+import mgapp.com.mgapp.model.data.NearDealer;
+import mgapp.com.mgapp.model.data.User;
+import mgapp.com.mgapp.util.BitmapUtils;
+import mgapp.com.mgapp.util.FunctionUtils;
+import mgapp.com.mgapp.util.FusedLocation;
+import mgapp.com.mgapp.util.SimpleLocation;
 
 
 public class MapActivity extends MvpActivity<MapView, MapPresenter> implements MapView, OnMapReadyCallback, GoogleMap.OnMarkerClickListener,DirectionCallback {
@@ -611,7 +611,7 @@ public class MapActivity extends MvpActivity<MapView, MapPresenter> implements M
         binding.dealerName.setText(dealer.getDealerName());
         binding.dealerAddress.setText(dealer.getDealerAddress());
         binding.dealerContact.setText("Contact Number: "+dealer.getDealerContact());
-        binding.dealerOpening.setText("Opening: "+FunctionUtils.hour24to12hour(dealer.getDealerOpening()));
+        binding.dealerOpening.setText("Opening: "+ FunctionUtils.hour24to12hour(dealer.getDealerOpening()));
         binding.dealerClosing.setText("Closing: "+FunctionUtils.hour24to12hour(dealer.getDealerClosing()));
         if(myMarker!=null)
         binding.dealerDistance.setText("Total Distance: "+dealer.getDistance()+" KM");

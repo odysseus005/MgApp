@@ -9,7 +9,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
 
 
 
@@ -41,7 +41,7 @@
                 android:layout_height="35dp"
                 android:scaleType="centerCrop"
                 android:tint="@color/white"
-                android:src="@drawable/ic_nav_dealer"
+                android:src="@drawable/ic_dealer_blgg"
                 />
 
             <TextView

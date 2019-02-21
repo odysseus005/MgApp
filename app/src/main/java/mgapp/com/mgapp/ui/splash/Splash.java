@@ -4,8 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.ui.login.LoginActivity;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.ui.login.LoginActivity;
+
 
 public class Splash extends Activity {
 

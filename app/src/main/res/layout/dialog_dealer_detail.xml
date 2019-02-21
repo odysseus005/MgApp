@@ -4,15 +4,15 @@
    >
 
     <data>
-        <import type="mychevroletconnect.com.chevroletapp.util.FunctionUtils"/>
+        <import type="mgapp.com.mgapp.util.FunctionUtils"/>
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
 
         <variable
             name="dealer"
-            type="mychevroletconnect.com.chevroletapp.model.data.NearDealer" />
+            type="mgapp.com.mgapp.model.data.NearDealer" />
 
 
     </data>
@@ -71,7 +71,7 @@
                             android:layout_width="35dp"
                             android:layout_height="35dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/ic_nav_dealer"
+                            android:src="@drawable/ic_dealer_blgg"
                             android:tint="@color/gray" />
 
                         <TextView

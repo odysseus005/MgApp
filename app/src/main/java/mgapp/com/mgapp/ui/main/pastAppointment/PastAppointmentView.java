@@ -2,7 +2,7 @@ package mgapp.com.mgapp.ui.main.pastAppointment;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 
-import mychevroletconnect.com.chevroletapp.model.data.PastAppointment;
+import mgapp.com.mgapp.model.data.PastAppointment;
 
 
 public interface PastAppointmentView extends MvpView {

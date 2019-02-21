@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentDealerBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Dealer;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentDealerBinding;
+import mgapp.com.mgapp.model.data.Dealer;
 
 
 public class DealerAdapter extends RecyclerView.Adapter<DealerAdapter.ViewHolder> {

@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.register.RegisterView" />
+            type="mgapp.com.mgapp.ui.register.RegisterView" />
 
     </data>
 
@@ -33,7 +33,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:scaleType="centerCrop"
-                android:background="@drawable/ic_register"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/ic_register"
                 />
 
             <TextView
@@ -67,7 +68,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/ic_register_personal"
+                    android:tint="@color/colorPrimary"
+                    android:src="@drawable/ic_register_personal"
                     />
 
                 <TextView
@@ -239,7 +241,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/ic_register_additional"
+                    android:tint="@color/colorPrimary"
+                    android:src="@drawable/ic_register_additional"
                     />
 
                 <TextView
@@ -378,7 +381,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/ic_garage"
+                    android:background="@drawable/ic_nav_garage"
                     />
 
                 <TextView

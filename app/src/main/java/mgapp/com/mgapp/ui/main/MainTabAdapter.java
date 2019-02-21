@@ -4,8 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import mychevroletconnect.com.chevroletapp.ui.main.currentAppointment.AppointmentActivity;
-import mychevroletconnect.com.chevroletapp.ui.main.pastAppointment.PastAppointmentActivity;
+import mgapp.com.mgapp.ui.main.currentAppointment.AppointmentActivity;
+import mgapp.com.mgapp.ui.main.pastAppointment.PastAppointmentActivity;
 
 
 class MainTabAdapter extends FragmentStatePagerAdapter {

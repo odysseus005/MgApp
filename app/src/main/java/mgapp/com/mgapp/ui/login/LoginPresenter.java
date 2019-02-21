@@ -5,12 +5,12 @@ import android.util.Log;
 import com.hannesdorfmann.mosby.mvp.MvpNullObjectBasePresenter;
 
 import io.realm.Realm;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.app.App;
-import mychevroletconnect.com.chevroletapp.app.Constants;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.model.data.User;
-import mychevroletconnect.com.chevroletapp.model.response.LoginResponse;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.app.App;
+import mgapp.com.mgapp.app.Constants;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.model.data.User;
+import mgapp.com.mgapp.model.response.LoginResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

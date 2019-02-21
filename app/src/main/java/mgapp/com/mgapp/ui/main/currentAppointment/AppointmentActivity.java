@@ -27,7 +27,6 @@ import android.widget.SearchView.OnQueryTextListener;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.crashlytics.android.Crashlytics;
 import com.hannesdorfmann.mosby.mvp.viewstate.MvpViewStateFragment;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
@@ -43,25 +42,25 @@ import java.util.Locale;
 import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmResults;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityAppointmentCurrentBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogAddAppointmentBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogAppointmentDetailBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogCancelAppointBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogChooseDateBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogChooseDealerBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Advisor;
-import mychevroletconnect.com.chevroletapp.model.data.Appointment;
-import mychevroletconnect.com.chevroletapp.model.data.Dealer;
-import mychevroletconnect.com.chevroletapp.model.data.Garage;
-import mychevroletconnect.com.chevroletapp.model.data.Holiday;
-import mychevroletconnect.com.chevroletapp.model.data.Holiday2;
-import mychevroletconnect.com.chevroletapp.model.data.Pms;
-import mychevroletconnect.com.chevroletapp.model.data.Schedule;
-import mychevroletconnect.com.chevroletapp.model.data.Service;
-import mychevroletconnect.com.chevroletapp.model.data.User;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.databinding.ActivityAppointmentCurrentBinding;
+import mgapp.com.mgapp.databinding.DialogAddAppointmentBinding;
+import mgapp.com.mgapp.databinding.DialogAppointmentDetailBinding;
+import mgapp.com.mgapp.databinding.DialogCancelAppointBinding;
+import mgapp.com.mgapp.databinding.DialogChooseDateBinding;
+import mgapp.com.mgapp.databinding.DialogChooseDealerBinding;
+import mgapp.com.mgapp.model.data.Advisor;
+import mgapp.com.mgapp.model.data.Appointment;
+import mgapp.com.mgapp.model.data.Dealer;
+import mgapp.com.mgapp.model.data.Garage;
+import mgapp.com.mgapp.model.data.Holiday;
+import mgapp.com.mgapp.model.data.Holiday2;
+import mgapp.com.mgapp.model.data.Pms;
+import mgapp.com.mgapp.model.data.Schedule;
+import mgapp.com.mgapp.model.data.Service;
+import mgapp.com.mgapp.model.data.User;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class AppointmentActivity
@@ -158,7 +157,7 @@ public class AppointmentActivity
             Log.d(TAG, "No User found");
             //  finish();
         }
-        Crashlytics.setUserEmail(user.getEmail());
+       // Crashlytics.setUserEmail(user.getEmail());
 
 
 

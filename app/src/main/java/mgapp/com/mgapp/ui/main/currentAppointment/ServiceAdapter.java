@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemAppointmentServiceBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Service;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemAppointmentServiceBinding;
+import mgapp.com.mgapp.model.data.Service;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ViewHolder> {

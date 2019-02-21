@@ -6,11 +6,11 @@
         
         <variable
             name="view"
-            type="mychevroletconnect.com.chevroletapp.ui.map.MapView" />
+            type="mgapp.com.mgapp.ui.map.MapView" />
 
         <variable
             name="company"
-            type="mychevroletconnect.com.chevroletapp.model.data.NearDealer" />
+            type="mgapp.com.mgapp.model.data.NearDealer" />
 
 
     </data>
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@{company.distance+``}"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
 
@@ -96,7 +96,7 @@
                     android:id="@+id/KM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:text="KM"
                     android:textSize="12sp" />
             </LinearLayout>

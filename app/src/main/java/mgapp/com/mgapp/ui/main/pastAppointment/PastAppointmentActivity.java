@@ -28,13 +28,13 @@ import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmResults;
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.databinding.ActivityAppointmentPastBinding;
-import mychevroletconnect.com.chevroletapp.databinding.DialogAppointmentDetailPastBinding;
-import mychevroletconnect.com.chevroletapp.model.data.PastAppointment;
-import mychevroletconnect.com.chevroletapp.model.data.User;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.databinding.ActivityAppointmentPastBinding;
+import mgapp.com.mgapp.databinding.DialogAppointmentDetailPastBinding;
+import mgapp.com.mgapp.model.data.PastAppointment;
+import mgapp.com.mgapp.model.data.User;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class PastAppointmentActivity

@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import mychevroletconnect.com.chevroletapp.R;
-import mychevroletconnect.com.chevroletapp.databinding.ItemCurrentAppointmentBinding;
-import mychevroletconnect.com.chevroletapp.model.data.Appointment;
-import mychevroletconnect.com.chevroletapp.util.FunctionUtils;
+import mgapp.com.mgapp.R;
+import mgapp.com.mgapp.databinding.ItemCurrentAppointmentBinding;
+import mgapp.com.mgapp.model.data.Appointment;
+import mgapp.com.mgapp.util.FunctionUtils;
 
 
 public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {

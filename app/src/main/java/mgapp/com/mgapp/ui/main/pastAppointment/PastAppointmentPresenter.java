@@ -3,11 +3,11 @@ package mgapp.com.mgapp.ui.main.pastAppointment;
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 
 import io.realm.Realm;
-import mychevroletconnect.com.chevroletapp.app.App;
-import mychevroletconnect.com.chevroletapp.app.Endpoints;
-import mychevroletconnect.com.chevroletapp.model.data.PastAppointment;
-import mychevroletconnect.com.chevroletapp.model.data.Service;
-import mychevroletconnect.com.chevroletapp.model.response.PastAppointmentListResponse;
+import mgapp.com.mgapp.app.App;
+import mgapp.com.mgapp.app.Endpoints;
+import mgapp.com.mgapp.model.data.PastAppointment;
+import mgapp.com.mgapp.model.data.Service;
+import mgapp.com.mgapp.model.response.PastAppointmentListResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
