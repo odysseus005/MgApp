@@ -73,7 +73,7 @@ public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.ViewHolder
                 }else
                 {
                     chooseGarage = position;
-                    holder.itemGarageBinding.appointmentGarage.setCardBackgroundColor(Color.parseColor("#26ffdf80"));
+                    holder.itemGarageBinding.appointmentGarage.setCardBackgroundColor(Color.parseColor("#26cb333b"));
                     notifyDataSetChanged();
                 }
 
@@ -96,7 +96,7 @@ public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.ViewHolder
             holder.itemGarageBinding.appointmentGarage.setCardBackgroundColor(Color.WHITE);
         }else
         {
-            holder.itemGarageBinding.appointmentGarage.setCardBackgroundColor(Color.parseColor("#26ffdf80"));
+            holder.itemGarageBinding.appointmentGarage.setCardBackgroundColor(Color.parseColor("#26cb333b"));
         }
 
 

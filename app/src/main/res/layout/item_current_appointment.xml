@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:text='@{appointment.appointgaragerName+" ("+appointment.appointgaragePlate+")"}'
                         android:drawableLeft="@drawable/ic_car_small_tint"
-                        android:drawablePadding="3dp"
+                        android:drawablePadding="5dp"
                         android:maxLines="2"
                         android:ellipsize="end"
                         android:id="@+id/appointListGarage"

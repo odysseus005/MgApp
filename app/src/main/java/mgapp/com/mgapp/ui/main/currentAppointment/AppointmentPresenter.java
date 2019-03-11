@@ -52,8 +52,9 @@ public class AppointmentPresenter extends MvpBasePresenter<AppointmentView> {
                     public void onResponse(Call<AppointmentListResponse> call, final Response<AppointmentListResponse> response) {
                         if (isViewAttached()) {
                             getView().stopRefresh();
+                            getView().stopLoading();
                         }
-                        getView().stopLoading();
+
                         if (response.isSuccessful()) {
                             final Realm realm = Realm.getDefaultInstance();
                             realm.executeTransactionAsync(new Realm.Transaction() {
@@ -214,8 +215,8 @@ public class AppointmentPresenter extends MvpBasePresenter<AppointmentView> {
                     public void onResponse(Call<ServiceListResponse> call, final Response<ServiceListResponse> response) {
                         if (isViewAttached()) {
                             getView().stopRefresh();
+                            getView().stopLoading();
                         }
-                        getView().stopLoading();
                         if (response.isSuccessful()) {
                             final Realm realm = Realm.getDefaultInstance();
                             realm.executeTransactionAsync(new Realm.Transaction() {
@@ -268,8 +269,9 @@ public class AppointmentPresenter extends MvpBasePresenter<AppointmentView> {
                     public void onResponse(Call<PmsListResponse> call, final Response<PmsListResponse> response) {
                         if (isViewAttached()) {
                             getView().stopRefresh();
+                            getView().stopLoading();
                         }
-                        getView().stopLoading();
+
                         if (response.isSuccessful()) {
                             final Realm realm = Realm.getDefaultInstance();
                             realm.executeTransactionAsync(new Realm.Transaction() {
@@ -449,6 +451,7 @@ public class AppointmentPresenter extends MvpBasePresenter<AppointmentView> {
                                 @Override
                                 public void onSuccess() {
                                     realm.close();
+                                    try{
                                     if(response.body().getChecker().equals("2")){
                                         if(!(response.body().getData().equals(null)))
                                         getView().loadTimeslot();
@@ -460,6 +463,10 @@ public class AppointmentPresenter extends MvpBasePresenter<AppointmentView> {
                                             getView().loadTimeslot2();
                                         else
                                             getView().showError("Error to Retrieve Schedule");
+                                    }}catch (Exception e)
+                                    {
+                                        getView().showError("No Schedule Available");
+                                        e.printStackTrace();
                                     }
 
 

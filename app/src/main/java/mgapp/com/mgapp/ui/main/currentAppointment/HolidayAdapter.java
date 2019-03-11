@@ -85,10 +85,10 @@ public class HolidayAdapter extends RecyclerView.Adapter<HolidayAdapter.ViewHold
 
                         if (chooseSchedule == position) {
                             chooseSchedule = -1;
-                            holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#f3bc00"));
+                            holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#cb333b"));
                         } else {
                             chooseSchedule = position;
-                            holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#bb8c00"));
+                            holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#930015"));
                             notifyDataSetChanged();
 
                         }
@@ -117,10 +117,10 @@ public class HolidayAdapter extends RecyclerView.Adapter<HolidayAdapter.ViewHold
         }
         else {
             if (chooseSchedule != position) {
-                holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#f3bc00"));
+                holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#cb333b"));
 
             } else {
-                holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#bb8c00"));
+                holder.itemScheduleBinding.timeslotReserveC.setCardBackgroundColor(Color.parseColor("#930015"));
             }
 
         }

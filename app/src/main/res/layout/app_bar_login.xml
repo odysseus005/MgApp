@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_login"
+        android:background="@drawable/bg_login2"
         android:orientation="vertical">
 
 
@@ -36,9 +36,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".25"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/logo_bg"/>
+                android:src="@drawable/logo_bg2"/>
 
 
 
@@ -52,7 +52,6 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:background="@drawable/bg_rounded_login"
         android:orientation="vertical">
 
 
@@ -73,6 +72,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:text="Welcome."
+                android:visibility="gone"
                 android:textColor="@color/white"
                 />
 
@@ -191,7 +191,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/button_rounded_solid_gray"
+                android:background="@drawable/button_rounded_solid_red"
                 android:onClick="@{() -> view.onLoginButtonClicked()}"
                 android:padding="10dp"
                 android:textColor="@color/white"
@@ -209,7 +209,7 @@
                 android:layout_height="0dp"
                 android:layout_weight=".1"
                 android:gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"

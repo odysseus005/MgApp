@@ -53,6 +53,11 @@ public class MapListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         viewHolder.binding.setCompany(list.get(position));
         viewHolder.binding.setView(mapView);
 
+        if(list.get(position).getDistance() == -1 || list.get(position).getDistance() == -1.0 ) {
+            viewHolder.binding.distance.setText("LOCATION");
+            viewHolder.binding.KM.setText("ERROR");
+        }
+
     }
 
     public void setList(List<NearDealer> list) {

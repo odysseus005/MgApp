@@ -241,37 +241,42 @@ public class AppointmentActivity
 
     private void prepareList() {
 
+        try {
+            if (appointmentlmResults != null && appointmentlmResults.isLoaded() && appointmentlmResults.isValid()) {
+                if (searchText.isEmpty()) {
 
-        if (appointmentlmResults.isLoaded() && appointmentlmResults.isValid()) {
-            if (searchText.isEmpty()) {
 
+                    appointmentlmResults = realm.where(Appointment.class).findAllAsync();
+                    appointmentListAdapter.setAppointmentResult(realm.copyToRealmOrUpdate(appointmentlmResults.where()
+                            .findAll()));//Sorted("eventDateFrom", Sort.ASCENDING)));
+                    appointmentListAdapter.notifyDataSetChanged();
 
-                appointmentlmResults = realm.where(Appointment.class).findAllAsync();
-                appointmentListAdapter.setAppointmentResult(realm.copyToRealmOrUpdate(appointmentlmResults.where()
-                        .findAll()));//Sorted("eventDateFrom", Sort.ASCENDING)));
-                appointmentListAdapter.notifyDataSetChanged();
+                } else {
 
-            } else {
-
-                appointmentlmResults = realm.where(Appointment.class).findAllAsync();
-                appointmentListAdapter.setAppointmentResult(realm.copyToRealmOrUpdate(appointmentlmResults.where()
-                        .contains("appointdealerName",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointdealerLocation",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointgaragerName",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointgaragePlate",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointStatus",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointschedTime",searchText, Case.INSENSITIVE)
-                        .or()
-                        .contains("appointDate",searchText, Case.INSENSITIVE)
-                        .findAll()));//Sorted("eventDateFrom", Sort.ASCENDING)));
-                appointmentListAdapter.notifyDataSetChanged();
+                    appointmentlmResults = realm.where(Appointment.class).findAllAsync();
+                    appointmentListAdapter.setAppointmentResult(realm.copyToRealmOrUpdate(appointmentlmResults.where()
+                            .contains("appointdealerName", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointdealerLocation", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointgaragerName", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointgaragePlate", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointStatus", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointschedTime", searchText, Case.INSENSITIVE)
+                            .or()
+                            .contains("appointDate", searchText, Case.INSENSITIVE)
+                            .findAll()));//Sorted("eventDateFrom", Sort.ASCENDING)));
+                    appointmentListAdapter.notifyDataSetChanged();
+                }
             }
-        }
+        }catch (Exception e)
+            {
+                showError("Error Searching");
+                e.printStackTrace();
+            }
     }
 
 
@@ -297,7 +302,7 @@ public class AppointmentActivity
     @Override
     public void onDestroy() {
         presenter.onStop();
-        appointmentlmResults.removeChangeListeners();
+        //appointmentlmResults.removeChangeListeners();
         realm.close();
         super.onDestroy();
     }
@@ -364,8 +369,13 @@ public class AppointmentActivity
 
     @Override
     public void stopLoading() {
+        try {
         if (progressDialog.isShowing()) {
             progressDialog.dismiss();
+        }
+        }catch (Exception e)
+        {
+            e.printStackTrace();
         }
     }
 

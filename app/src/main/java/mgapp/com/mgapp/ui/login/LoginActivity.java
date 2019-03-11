@@ -184,7 +184,7 @@ public class LoginActivity extends MvpViewStateActivity<LoginView, LoginPresente
     @Override
     public void onLoginSuccess(final User user) {
 
-
+        try {
         if(!(user.getFirstlogin().equalsIgnoreCase("APPROVED")))
         {
 
@@ -255,6 +255,10 @@ public class LoginActivity extends MvpViewStateActivity<LoginView, LoginPresente
 
             startActivity(new Intent(this, MainActivity.class));
             finish();
+        }
+        }catch (Exception e)
+        {
+            showAlert("Can't Connect to the Server!");
         }
 
     }
