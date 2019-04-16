@@ -7,10 +7,10 @@
 
         <variable
             name="profile"
-            type="mgapp.com.mgapp.model.data.User" />
+            type="mymgconnect.com.mgapp.model.data.User" />
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.profile.ProfileView" />
+            type="mymgconnect.com.mgapp.ui.profile.ProfileView" />
 
     </data>
 

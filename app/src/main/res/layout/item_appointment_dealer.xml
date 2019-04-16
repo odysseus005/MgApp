@@ -5,11 +5,11 @@
     <data>
        <variable
             name="dealer"
-            type="mgapp.com.mgapp.model.data.Dealer" />
+            type="mymgconnect.com.mgapp.model.data.Dealer" />
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
+            type="mymgconnect.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
     </data>

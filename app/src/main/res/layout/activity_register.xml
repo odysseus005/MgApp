@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.register.RegisterView" />
+            type="mymgconnect.com.mgapp.ui.register.RegisterView" />
 
     </data>
 

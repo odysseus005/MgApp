@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.inquiries.parts.PartsView" />
+            type="mymgconnect.com.mgapp.ui.inquiries.parts.PartsView" />
 
     </data>
 

@@ -7,15 +7,15 @@
 
         <variable
             name="activity"
-            type="mgapp.com.mgapp.ui.profile.edit.EditProfileActivity" />
+            type="mymgconnect.com.mgapp.ui.profile.edit.EditProfileActivity" />
 
         <variable
             name="user"
-            type="mgapp.com.mgapp.model.data.User" />
+            type="mymgconnect.com.mgapp.model.data.User" />
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.profile.edit.EditProfileView" />
+            type="mymgconnect.com.mgapp.ui.profile.edit.EditProfileView" />
     </data>
 
     <LinearLayout

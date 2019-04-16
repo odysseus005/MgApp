@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.forgot.ForgotView" />
+            type="mymgconnect.com.mgapp.ui.forgot.ForgotView" />
     </data>
 
     <RelativeLayout

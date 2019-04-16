@@ -5,7 +5,7 @@
     <data>
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.login.LoginView" />
+            type="mymgconnect.com.mgapp.ui.login.LoginView" />
     </data>
 
     <LinearLayout

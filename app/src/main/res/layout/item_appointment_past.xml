@@ -6,11 +6,11 @@
 
         <variable
             name="pastappointment"             
-            type="mgapp.com.mgapp.model.data.PastAppointment" />
+            type="mymgconnect.com.mgapp.model.data.PastAppointment" />
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.main.pastAppointment.PastAppointmentView" />
+            type="mymgconnect.com.mgapp.ui.main.pastAppointment.PastAppointmentView" />
 
 
     </data>

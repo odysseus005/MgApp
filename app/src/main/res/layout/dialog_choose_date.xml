@@ -8,7 +8,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.main.currentAppointment.AppointmentView" />
+            type="mymgconnect.com.mgapp.ui.main.currentAppointment.AppointmentView" />
 
 
         <variable

@@ -7,7 +7,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.map.MapView" />
+            type="mymgconnect.com.mgapp.ui.map.MapView" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout

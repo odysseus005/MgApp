@@ -7,7 +7,7 @@
 
         <variable
             name="user"
-            type="mgapp.com.mgapp.model.data.User" />
+            type="mymgconnect.com.mgapp.model.data.User" />
     </data>
 
     <FrameLayout

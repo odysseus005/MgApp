@@ -8,11 +8,11 @@
 
     <variable
         name="view"
-        type="mgapp.com.mgapp.ui.garage.GarageListView" />
+        type="mymgconnect.com.mgapp.ui.garage.GarageListView" />
 
     <variable
         name="garage"
-        type="mgapp.com.mgapp.model.data.Garage" />
+        type="mymgconnect.com.mgapp.model.data.Garage" />
 
 
 </data>

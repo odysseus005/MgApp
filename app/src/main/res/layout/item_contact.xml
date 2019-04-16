@@ -6,11 +6,11 @@
         
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.map.MapView" />
+            type="mymgconnect.com.mgapp.ui.map.MapView" />
 
         <variable
             name="dealer"
-            type="mgapp.com.mgapp.model.data.DealerContacts" />
+            type="mymgconnect.com.mgapp.model.data.DealerContacts" />
 
 
     </data>

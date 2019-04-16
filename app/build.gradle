@@ -4,7 +4,7 @@ apply plugin: 'realm-android'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "mgapp.com.mgapp"
+        applicationId "mymgconnect.com.mgapp"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -64,4 +64,5 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.2.0'
     compile 'com.github.clans:fab:1.6.4'
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'id.zelory:compressor:2.1.0'
 }

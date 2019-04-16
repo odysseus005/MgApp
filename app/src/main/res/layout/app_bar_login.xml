@@ -6,7 +6,7 @@
     <data>
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.login.LoginView" />
+            type="mymgconnect.com.mgapp.ui.login.LoginView" />
     </data>
 
     <LinearLayout
@@ -36,9 +36,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".25"
-                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/logo_bg2"/>
+                android:src="@drawable/logo_bg"/>
 
 
 

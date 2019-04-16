@@ -9,7 +9,7 @@
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.map.MapView" />
+            type="mymgconnect.com.mgapp.ui.map.MapView" />
 
 
 

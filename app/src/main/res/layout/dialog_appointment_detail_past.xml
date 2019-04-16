@@ -4,15 +4,15 @@
    >
 
     <data>
-        <import type="mgapp.com.mgapp.util.FunctionUtils"/>
+        <import type="mymgconnect.com.mgapp.util.FunctionUtils"/>
 
         <variable
             name="view"
-            type="mgapp.com.mgapp.ui.main.pastAppointment.PastAppointmentView" />
+            type="mymgconnect.com.mgapp.ui.main.pastAppointment.PastAppointmentView" />
 
         <variable
             name="appointment"
-            type="mgapp.com.mgapp.model.data.PastAppointment" />
+            type="mymgconnect.com.mgapp.model.data.PastAppointment" />
 
 
     </data>
